@@ -54,11 +54,11 @@ li {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-/* Cтудия */
 .flex{
   display: flex;
 }
+
+
 .header {
   border: 1px solid var(--border-color);
   margin-right: auto;
@@ -133,6 +133,7 @@ li {
 .current {
   color: var(--accent-color);
 }
+/* Cтудия */
 .hero {
   background-color: #c4c4c4;
   height: 600px;
@@ -269,18 +270,36 @@ li {
   color: var(--light-color);
   flex-direction: column
 }
+.section-team {
+  background-color: var(--team-color);
+}
+.title-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team {
+  margin-top: 50px;
+}
+.team__list {
+  background: var(--light-color);
 
-
-
-
-
-
-
-
-.main-nav-item {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+  0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+}
+.team__card {
   margin-right: 30px;
   position: relative;
 }
+
+
+
+
+
+
 
 
 .buttons-all {
@@ -299,24 +318,12 @@ li {
 
 
 
-.title-text {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
 
 
 
 
 
-.team {
-  margin-top: 50px;
-}
-.team-section {
-  background-color: var(--team-color);
-}
+
 
 
 
@@ -468,13 +475,7 @@ li {
   margin-top: 4px;
 }
 
-.box {
-  background: var(--light-color);
 
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
-    0 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0 0 4px 4px;
-}
 
 .portfolio-button {
   display: flex;
