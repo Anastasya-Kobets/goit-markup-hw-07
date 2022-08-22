@@ -294,67 +294,31 @@ li {
   margin-right: 30px;
   position: relative;
 }
-
-
-
-
-
-
-
-
-.buttons-all {
-  padding-top: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.team-text {
+.team__text {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
-
-.team-name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
-
-.team-profession {
+.team__profession {
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-bottom: 16px;
 }
-.team-icon-list {
+.team-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-
-.team-icon {
+.team-list__icon {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -365,18 +329,86 @@ li {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
-.team-icon-svg {
+.team-list__svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icon:hover,
-.team-icon:focus {
+.team-list__icon:hover,
+.team-list__icon:focus {
   background-color: var(--accent-color);
 }
-
-.team-icon:hover .team-icon-svg,
-.team-icon:focus .team-icon-svg {
+.team-list__icon:hover .team-list__svg,
+.team-list__icon:focus .team-list__svg {
   fill: var(--light-color);
 }
+.clients {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+.clients__icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  fill: var(--icon-color);
+  display: flex;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+.clients__svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients__icon:hover,
+.clients__icon:focus {
+  border-color: var(--accent-color);
+}
+.clients__icon:hover .clients__svg,
+.clients__icon:focus .clients__svg {
+  fill: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .contact-footer {
   font-size: 14px;
@@ -482,36 +514,9 @@ li {
   justify-content: center;
 }
 
-.clients {
-  display: flex;
-  gap: 30px;
-  margin-top: 50px;
-}
 
-.clients-icon {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-  fill: var(--icon-color);
-  display: flex;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
-}
-.clients-icon-svg {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients-icon:hover,
-.clients-icon:focus {
-  border-color: var(--accent-color);
-}
 
-.clients-icon:hover .clients-icon-svg,
-.clients-icon:focus .clients-icon-svg {
-  fill: var(--accent-color);
-}
+
 
 /*Футер*/
 .addresses {
