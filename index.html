@@ -70,7 +70,6 @@
         </ul>
       </div>
     </header>
-
     <main>
       <!-- Эффективные решения для вашего бизнеса -->
       <section class="hero">
@@ -543,74 +542,74 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="icon-modal" data-modal-close>
-          <svg class="modal-close" width="11" height="11">
+        <button type="button" class="modal__icon" data-modal-close>
+          <svg class="modal__close" width="11" height="11">
           <use href="./images/symbol-defs.svg#icon-close" class=""></use>
         </svg></button>
-        <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
+        <p class="modal__text">Залиште свої дані, ми вам передзвонимо</p>
         <form>
 
-          <div class="form-studio">
-            <label class="form-studio-label" for="name">Ім'я</label>
-              <input type="text" name="name" class="form-input" id="name"/>
-              <svg class="icon-modal-svg" width="12" height="12">
+          <div class="modal__form">
+            <label class="modal__label" for="name">Ім'я</label>
+              <input type="text" name="name" class="form__input" id="name"/>
+              <svg class="modal__svg" width="12" height="12">
                 <use href="./images/symbol-defs.svg#icon-name"></use>
               </svg>
           </div>
 
-          <div class="form-studio">
-            <label class="form-studio-label" for="tel"
+          <div class="modal__form">
+            <label class="modal__label" for="tel"
               >Телефон </label>
-              <input type="number" name="tel" class="form-input" id="tel"/>
-              <svg class="icon-modal-svg" width="12" height="12">
+              <input type="number" name="tel" class="form__input" id="tel"/>
+              <svg class="modal__svg" width="12" height="12">
                 <use href="./images/symbol-defs.svg#icon-tel"></use>
               </svg>
 
           </div>
 
-          <div class="form-studio">
-            <label class="form-studio-label" for="email_studio"
+          <div class="modal__form">
+            <label class="modal__label" for="email_studio"
               >Пошта</label>
 
-              <input type="email" name="email" class="form-input" id="email_studio"/>
-              <svg class="icon-modal-svg" width="12" height="12">
+              <input type="email" name="email" class="form__input" id="email_studio"/>
+              <svg class="modal__svg" width="12" height="12">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
               </svg>
 
           </div>
 
-          <label for="comment" class="form-studio">Коментар </label>
+          <label for="comment" class="modal__form">Коментар </label>
           <textarea
             name="comment"
             id="comment"
             rows="10"
             placeholder="Введіть текст"
-            class="form-studio-textarea"
+            class="modal__textarea"
           ></textarea>
           <div class="checkbox-modal">
-            <label for="policy" class="checkbox-modal-text">
+            <label for="policy" class="checkbox-modal__text">
               <input
                 type="checkbox"
                 name="policy"
                 id="policy"
-                class="checkbox"
+                class="checkbox-modal__input"
               />
               <svg
-                class="icon-checkbox icon-modal-check"
+                class="checkbox-modal__icon"
                 width="16"
                 height="15"
               >
                 <use href="./images/symbol-defs.svg#icon-check"></use>
               </svg>
-              <span class="icon-checkbox-text">
+              <span class="checkbox-modal__agreement">
               Погоджуюся з розсилкою та приймаю
-              <a href="" class="link-checkbox"> Умови договору </a>
+              <a href="" class="checkbox-modal__link"> Умови договору </a>
             </span>
             </label
             >
           </div>
 
-            <button type="submit" class="modal-btn">Відправити</button>
+            <button type="submit" class="checkbox-modal-btn">Відправити</button>
 
         </form>
       </div>
