@@ -1,6 +1,18 @@
 @charset "UTF-8";
+:root {
+  --light-color: #ffffff;
+  --fon-color: #2f303a;
+  --team-color: #f5f4fa;
+  --border-color: #ececec;
+  --icon-color: #afb1b8;
+  --border-shadow-color: #eeeeee;
+  --hover-portfolio: rgba(33, 150, 243, 0.9);
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
 .current {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 .current::after {
   position: absolute;
@@ -8,14 +20,14 @@
   display: inline-block;
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   bottom: -1.5%;
   left: 0;
 }
 
 body {
   font-family: var(--main-font);
-  color: var(--header-color);
+  color: #212121;
   background-color: var(--light-color);
 }
 
@@ -59,21 +71,6 @@ img {
 
 textarea {
   resize: none;
-}
-
-:root {
-  --header-color: #212121;
-  --text-color: #757575;
-  --accent-color: #2196f3;
-  --light-color: #ffffff;
-  --fon-color: #2f303a;
-  --team-color: #f5f4fa;
-  --border-color: #ececec;
-  --icon-color: #afb1b8;
-  --border-shadow-color: #eeeeee;
-  --hover-portfolio: rgba(33, 150, 243, 0.9);
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
 }
 
 .container {
@@ -125,7 +122,7 @@ textarea {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .header__logo-text {
@@ -148,11 +145,11 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-header .nav-header__link:hover {
-  color: var(--accent-color);
-  fill: var(--accent-color);
+  color: #2196f3;
+  fill: #2196f3;
 }
 .nav-header .nav-header__link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .nav-header__title {
@@ -164,12 +161,12 @@ textarea {
   margin-right: 10px;
 }
 .nav-header .nav-header__link:focus .nav-header__icon {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .nav-header__contacts {
-  color: var(--text-color);
-  fill: var(--text-color);
+  color: #757575;
+  fill: #757575;
   display: flex;
   align-items: center;
 }
@@ -181,7 +178,7 @@ textarea {
 }
 
 .footer__logo-text {
-  color: var(--accent-color);
+  color: #2196f3;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -264,7 +261,7 @@ textarea {
   outline: none;
 }
 .footer__icon:hover, .footer__icon:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .footer__svg {
@@ -311,7 +308,7 @@ textarea {
   width: 200px;
   height: 50px;
   cursor: pointer;
-  background: var(--accent-color);
+  background: #2196f3;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
@@ -377,7 +374,7 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__icon:hover .modal__close, .modal__icon:focus .modal__close {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .modal__text {
@@ -400,7 +397,7 @@ textarea {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: var(--text-color);
+  color: #757575;
   position: relative;
 }
 
@@ -438,7 +435,7 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form__input:focus + .modal__svg, .form__input:hover + .modal__svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .modal__textarea {
@@ -474,7 +471,7 @@ textarea {
   line-height: 24px;
   letter-spacing: 0.03em;
   display: inline-block;
-  color: var(--text-color);
+  color: #757575;
 }
 
 .checkbox-modal__input {
@@ -495,12 +492,12 @@ textarea {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-modal__input:hover + .checkbox-modal__icon, .checkbox-modal__input:focus + .checkbox-modal__icon {
-  /*border: 2px solid var(--accent-color);*/
-  border: 2px solid var(--accent-color);
+  /*border: 2px solid $accent-color*/
+  border: 2px solid #2196f3;
 }
 .checkbox-modal__input:checked + .checkbox-modal__icon {
-  border: var(--accent-color);
-  background-color: var(--accent-color);
+  border: #2196f3;
+  background-color: #2196f3;
   background-size: contain;
   background-origin: border-box;
 }
@@ -510,12 +507,12 @@ textarea {
 }
 
 .checkbox-modal__link {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .checkbox-modal__btn {
   cursor: pointer;
-  background: var(--accent-color);
+  background: #2196f3;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -569,7 +566,7 @@ textarea {
   cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 0;
-  background: var(--accent-color);
+  background: #2196f3;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -584,7 +581,7 @@ textarea {
   margin-top: 40px;
 }
 .hero__btn:hover, .hero__btn:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   color: var(--light-color);
 }
 
@@ -642,7 +639,7 @@ textarea {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: #757575;
 }
 
 .section-main {
@@ -722,7 +719,7 @@ textarea {
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: #757575;
   margin-bottom: 16px;
 }
 
@@ -744,7 +741,7 @@ textarea {
   outline: none;
 }
 .team-list__icon:hover, .team-list__icon:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .team-list__svg {
@@ -773,14 +770,14 @@ textarea {
   outline: none;
 }
 .clients__icon:hover, .clients__icon:focus {
-  border-color: var(--accent-color);
+  border-color: #2196f3;
 }
 
 .clients__svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients__icon:hover .clients__svg, .clients__icon:focus .clients__svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .portfolio {
@@ -817,14 +814,14 @@ textarea {
   cursor: pointer;
 }
 .portfolio__btn:hover, .portfolio__btn:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   color: var(--light-color);
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
 .current-btn {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   color: var(--light-color);
 }
 
@@ -879,7 +876,7 @@ textarea {
 .portfolio__services {
   line-height: 1.8;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: #757575;
   margin-top: 4px;
 }
 

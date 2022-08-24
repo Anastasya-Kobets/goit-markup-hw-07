@@ -13,11 +13,11 @@
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .nav-header &:hover {
-    color: var(--accent-color);
-    fill: var(--accent-color);
+    color: $accent-color;
+    fill: $accent-color;
   }
   .nav-header &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 }
 .nav-header__title {
@@ -27,12 +27,12 @@
 .nav-header__icon {
   margin-right: 10px;
   .nav-header .nav-header__link:focus & {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
 }
 .nav-header__contacts {
-  color: var(--text-color);
-  fill: var(--text-color);
+  color: $text-color;
+  fill: $text-color;
   display: flex;
   align-items: center;
 }
