@@ -58,24 +58,7 @@ li {
   display: flex;
 }
 
-.header {
-  border: 1px solid var(--border-color);
-  margin-right: auto;
-  margin-left: auto;
-}
-.header__logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  margin-right: 93px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-}
-.header__logo-text {
-  color: var(--header-color);
-}
+
 .nav-header {
   font-weight: 500;
   font-size: 14px;
@@ -807,6 +790,12 @@ textarea {
   color: var(--text-color);
   margin-top: 4px;
 }
+.portfolio__cart:nth-child(3n) {
+  margin-right: 0;
+}
+.portfolio__cart:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
 
 
 /*Анимации*/
@@ -835,10 +824,6 @@ textarea {
 
 
 
-.section-lite {
-  padding-top: 50px;
-  padding-bottom: 94px;
-}
 
 
 
@@ -861,19 +846,13 @@ textarea {
 
 
 
-.portfolio__cart:nth-child(3n) {
-  margin-right: 0;
-}
-
-.portfolio__cart:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
 
 
 
 
 
-/*----------------модалка---------------*/
+
+
 
 
 
