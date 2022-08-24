@@ -638,7 +638,6 @@ textarea {
   margin-right: 30px;
   position: relative;
 }
-
 .benefits__list::before {
   content: "";
   display: flex;
@@ -650,19 +649,15 @@ textarea {
   background-color: var(--team-color);
   border-radius: 4px;
 }
-
 .benefits__list:nth-child(1)::before {
   background-image: url("../../images/antenna.svg");
 }
-
 .benefits__list:nth-child(2)::before {
   background-image: url("../../images/clock.svg");
 }
-
 .benefits__list:nth-child(3)::before {
   background-image: url("../../images/diagram.svg");
 }
-
 .benefits__list:nth-child(4)::before {
   background-image: url("../../images/astronaut.svg");
 }
