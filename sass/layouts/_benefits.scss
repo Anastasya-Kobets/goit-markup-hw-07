@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    background-color: var(--team-color);
+    background-color: $team-color;
     border-radius: 4px;
   }
   &:nth-child(1)::before {

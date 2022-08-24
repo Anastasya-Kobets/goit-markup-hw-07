@@ -4,11 +4,11 @@
   margin-top: 50px;
 }
 .portfolio__cart {
-  background: var(--light-color);
+  background: $light-color;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid var(--border-shadow-color);
+  border: 1px solid $border-shadow-color;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio__cart:nth-child(3n) {

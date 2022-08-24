@@ -1,12 +1,5 @@
 @charset "UTF-8";
 :root {
-  --light-color: #ffffff;
-  --fon-color: #2f303a;
-  --team-color: #f5f4fa;
-  --border-color: #ececec;
-  --icon-color: #afb1b8;
-  --border-shadow-color: #eeeeee;
-  --hover-portfolio: rgba(33, 150, 243, 0.9);
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 }
@@ -28,7 +21,7 @@
 body {
   font-family: var(--main-font);
   color: #212121;
-  background-color: var(--light-color);
+  background-color: #ffffff;
 }
 
 h1,
@@ -91,7 +84,7 @@ textarea {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 50%);
-  background: var(--hover-portfolio);
+  background: rgba(33, 150, 243, 0.9);
   width: 100%;
   height: 100%;
   display: inline-block;
@@ -100,7 +93,7 @@ textarea {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  color: var(--light-color);
+  color: #ffffff;
   padding: 63px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -109,7 +102,7 @@ textarea {
 }
 
 .header {
-  border: 1px solid var(--border-color);
+  border: 1px solid #ececec;
   margin-right: auto;
   margin-left: auto;
 }
@@ -173,7 +166,7 @@ textarea {
 
 /*Футер*/
 .footer {
-  background-color: var(--fon-color);
+  background-color: #2f303a;
   padding: 60px 0;
 }
 
@@ -192,7 +185,7 @@ textarea {
 }
 
 .footer__logo {
-  color: var(--light-color);
+  color: #ffffff;
 }
 
 .addresses-footer {
@@ -213,14 +206,14 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .addresses-footer__link:hover, .addresses-footer__link:focus {
-  color: var(--light-color);
+  color: #ffffff;
 }
 
 .addresses-footer__gps {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--light-color);
+  color: #ffffff;
 }
 
 .addresses-footer__tel {
@@ -236,7 +229,7 @@ textarea {
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--light-color);
+  color: #ffffff;
 }
 
 .footer__item {
@@ -255,7 +248,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--light-color);
+  fill: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
@@ -268,7 +261,7 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__icon:hover .footer__svg, .footer__icon:focus .footer__svg {
-  fill: var(--light-color);
+  fill: #ffffff;
 }
 
 .footer-input {
@@ -279,7 +272,7 @@ textarea {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--fon-color);
+  background-color: #2f303a;
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -304,7 +297,7 @@ textarea {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--light-color);
+  color: #ffffff;
   width: 200px;
   height: 50px;
   cursor: pointer;
@@ -319,7 +312,7 @@ textarea {
 }
 
 .footer-input__svg {
-  fill: var(--light-color);
+  fill: #ffffff;
   margin-left: 10px;
 }
 
@@ -344,7 +337,7 @@ textarea {
   position: absolute;
   min-height: 521px;
   width: 528px;
-  background: var(--light-color);
+  background: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   top: 50%;
@@ -364,7 +357,7 @@ textarea {
   border: 1px solid rgba(0, 0, 0, 0.1);
   top: 8px;
   right: 9px;
-  background-color: var(--light-color);
+  background-color: #ffffff;
   line-height: 0;
   cursor: pointer;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -485,10 +478,10 @@ textarea {
   width: 16px;
   height: 15px;
   vertical-align: middle;
-  background: var(--light-color);
+  background: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  border: 2px solid var(--header-color);
+  border: 2px solid #212121;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-modal__input:hover + .checkbox-modal__icon, .checkbox-modal__input:focus + .checkbox-modal__icon {
@@ -521,7 +514,7 @@ textarea {
   border: 0;
   position: relative;
   letter-spacing: 0.06em;
-  color: var(--light-color);
+  color: #ffffff;
   width: 200px;
   height: 50px;
   margin: auto;
@@ -557,7 +550,7 @@ textarea {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--light-color);
+  color: #ffffff;
   width: 696px;
   margin: auto;
 }
@@ -575,14 +568,14 @@ textarea {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--light-color);
+  color: #ffffff;
   width: 216px;
   height: 50px;
   margin-top: 40px;
 }
 .hero__btn:hover, .hero__btn:focus {
   background-color: #2196f3;
-  color: var(--light-color);
+  color: #ffffff;
 }
 
 .visually-hidden {
@@ -610,7 +603,7 @@ textarea {
   background-size: 70px 70px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--team-color);
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 .benefits__list:nth-child(1)::before {
@@ -670,12 +663,12 @@ textarea {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
-  color: var(--light-color);
+  color: #ffffff;
   flex-direction: column;
 }
 
 .section-team {
-  background-color: var(--team-color);
+  background-color: #f5f4fa;
 }
 
 .title-text {
@@ -691,7 +684,7 @@ textarea {
 }
 
 .team__list {
-  background: var(--light-color);
+  background: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0 0 4px 4px;
 }
@@ -736,7 +729,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--icon-color);
+  fill: #afb1b8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
@@ -748,7 +741,7 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-list__icon:hover .team-list__svg, .team-list__icon:focus .team-list__svg {
-  fill: var(--light-color);
+  fill: #ffffff;
 }
 
 .clients {
@@ -764,7 +757,7 @@ textarea {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  fill: var(--icon-color);
+  fill: #afb1b8;
   display: flex;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
@@ -803,7 +796,7 @@ textarea {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
-  background: var(--team-color);
+  background: #f5f4fa;
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
@@ -815,14 +808,14 @@ textarea {
 }
 .portfolio__btn:hover, .portfolio__btn:focus {
   background-color: #2196f3;
-  color: var(--light-color);
+  color: #ffffff;
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
 .current-btn {
   background-color: #2196f3;
-  color: var(--light-color);
+  color: #ffffff;
 }
 
 .portfolio__list {
@@ -832,11 +825,11 @@ textarea {
 }
 
 .portfolio__cart {
-  background: var(--light-color);
+  background: #ffffff;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid var(--border-shadow-color);
+  border: 1px solid #eeeeee;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

@@ -25,7 +25,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--light-color);
+  color: $light-color;
   width: 696px;
   margin: auto;
 }
@@ -43,13 +43,13 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--light-color);
+  color: $light-color;
   width: 216px;
   height: 50px;
   margin-top: 40px;
   &:hover,
   &:focus {
     background-color: $accent-color;
-    color: var(--light-color);
+    color: $light-color;
   }
 }

@@ -1,5 +1,5 @@
 .section-team {
-  background-color: var(--team-color);
+  background-color: $team-color;
 }
 .title-text {
   font-weight: 700;
@@ -12,7 +12,7 @@
   margin-top: 50px;
 }
 .team__list {
-  background: var(--light-color);
+  background: $light-color;
 
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
   0 2px 1px rgba(0, 0, 0, 0.2);
@@ -53,7 +53,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--icon-color);
+  fill: $icon-color;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
   &:hover,
@@ -65,7 +65,7 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .team-list__icon:hover &,
   .team-list__icon:focus & {
-    fill: var(--light-color);
+    fill: $light-color;
   }
 }
 

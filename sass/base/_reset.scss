@@ -2,7 +2,7 @@
 body {
   font-family: var(--main-font);
   color: $header-color;
-  background-color: var(--light-color);
+  background-color: $light-color;
 }
 
 h1,
