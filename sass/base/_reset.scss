@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   color: var(--header-color);
   background-color: var(--light-color);
 }
@@ -43,4 +43,8 @@ img {
 
 .contact {
   margin-left: auto;
+}
+
+textarea{
+  resize: none;
 }
