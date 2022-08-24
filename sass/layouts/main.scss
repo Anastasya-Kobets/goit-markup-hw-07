@@ -1,5 +1,9 @@
+
+@import "../base/vars";
+@import "../base/container";
+@import "../base/section";
+@import "../base/animation";
 @import "header";
-@import "../utils/vars";
 @import "nav";
 @import "../components/current";
 @import "footer";
@@ -8,8 +12,13 @@
 @import "../utils/checkbox";
 @import "../utils/last-child";
 @import "../layouts/hero";
-@import "../utils/checkbox";
-@import "../utils/checkbox";
-@import "../utils/checkbox";
-@import "../utils/checkbox";
+@import "../utils/hidden";
+@import "../layouts/benefits";
+@import "../layouts/metier";
+@import "../layouts/team";
+
+@import "../layouts/clients";
+@import "../layouts/portfolio-btn";
+@import "../layouts/portfolio-cart";
+
 
