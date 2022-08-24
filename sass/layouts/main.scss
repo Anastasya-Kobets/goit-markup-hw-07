@@ -1,5 +1,6 @@
 
-@import "../base/vars";
+@import "../base/reset";
+@import "../utils/vars";
 @import "../base/container";
 @import "../base/section";
 @import "../base/animation";
@@ -7,9 +8,9 @@
 @import "nav";
 @import "../components/current";
 @import "footer";
-@import "../utils/modal";
-@import "../utils/form";
-@import "../utils/checkbox";
+@import "../components/modal";
+@import "../components/form";
+@import "../components/checkbox";
 @import "../utils/last-child";
 @import "../layouts/hero";
 @import "../utils/hidden";

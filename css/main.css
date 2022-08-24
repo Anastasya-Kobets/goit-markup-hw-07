@@ -1,17 +1,4 @@
 @charset "UTF-8";
-:root {
-  --header-color: #212121;
-  --text-color: #757575;
-  --accent-color: #2196f3;
-  --light-color: #ffffff;
-  --fon-color: #2f303a;
-  --team-color: #f5f4fa;
-  --border-color: #ececec;
-  --icon-color: #afb1b8;
-  --border-shadow-color: #eeeeee;
-  --hover-portfolio: rgba(33, 150, 243, 0.9);
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--header-color);
@@ -54,6 +41,19 @@ img {
 
 .contact {
   margin-left: auto;
+}
+
+:root {
+  --header-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --light-color: #ffffff;
+  --fon-color: #2f303a;
+  --team-color: #f5f4fa;
+  --border-color: #ececec;
+  --icon-color: #afb1b8;
+  --border-shadow-color: #eeeeee;
+  --hover-portfolio: rgba(33, 150, 243, 0.9);
 }
 
 .container {
