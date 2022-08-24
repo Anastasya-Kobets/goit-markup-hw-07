@@ -743,18 +743,14 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
+.team-list__icon:hover, .team-list__icon:focus {
+  background-color: var(--accent-color);
+}
 
 .team-list__svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.team-list__icon:hover,
-.team-list__icon:focus {
-  background-color: var(--accent-color);
-}
-
-.team-list__icon:hover .team-list__svg,
-.team-list__icon:focus .team-list__svg {
+.team-list__icon:hover .team-list__svg, .team-list__icon:focus .team-list__svg {
   fill: var(--light-color);
 }
 
