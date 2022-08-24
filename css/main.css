@@ -66,6 +66,27 @@ textarea {
   resize: none;
 }
 
+.header {
+  border: 1px solid #ececec;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header__logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+.header__logo-text {
+  color: #212121;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -99,27 +120,6 @@ textarea {
 }
 .portfolio__img:hover .portfolio__modal, .portfolio__img:focus .portfolio__modal {
   transform: translate(-50%, -50%);
-}
-
-.header {
-  border: 1px solid #ececec;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.header__logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  margin-right: 93px;
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: #2196f3;
-}
-
-.header__logo-text {
-  color: var(--header-color);
 }
 
 .nav-header {
@@ -270,8 +270,8 @@ textarea {
 
 .footer-input__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
   background-color: #2f303a;
   width: 358px;
   height: 50px;
@@ -443,8 +443,7 @@ textarea {
 }
 .modal__textarea:focus, .modal__textarea:hover {
   outline: 0;
-  border: 1px solid #2196f3;
-  border-radius: 4px;
+  border-color: #2196f3;
 }
 .modal__textarea::placeholder {
   font-weight: 400;
@@ -480,16 +479,16 @@ textarea {
   vertical-align: middle;
   background: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
   border: 2px solid #212121;
+  border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-modal__input:hover + .checkbox-modal__icon, .checkbox-modal__input:focus + .checkbox-modal__icon {
   /*border: 2px solid $accent-color*/
-  border: 2px solid #2196f3;
+  border-color: #2196f3;
 }
 .checkbox-modal__input:checked + .checkbox-modal__icon {
-  border: #2196f3;
+  border-color: #2196f3;
   background-color: #2196f3;
   background-size: contain;
   background-origin: border-box;

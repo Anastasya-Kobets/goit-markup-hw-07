@@ -6,8 +6,7 @@
 .clients__icon {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+  @include bordered($icon-color, 1px, true);
   align-items: center;
   justify-content: center;
   fill: $icon-color;

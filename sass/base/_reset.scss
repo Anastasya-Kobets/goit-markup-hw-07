@@ -1,4 +1,3 @@
-
 body {
   font-family: var(--main-font);
   color: $header-color;
@@ -20,8 +19,6 @@ ul {
   padding-left: 0;
 }
 
-
-
 .link {
   text-decoration: none;
   color: var(--header-color);
@@ -30,7 +27,6 @@ ul {
 li {
   list-style: none;
 }
-
 
 .flex {
   display: flex;
@@ -45,6 +41,6 @@ img {
   margin-left: auto;
 }
 
-textarea{
+textarea {
   resize: none;
 }
